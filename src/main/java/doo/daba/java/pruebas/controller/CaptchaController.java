@@ -37,7 +37,7 @@ public class CaptchaController {
                 false
         );
 
-        return "cosa" + captcha.createRecaptchaHtml(null, null);
+        return captcha.createRecaptchaHtml(null, null);
 
     }
 
